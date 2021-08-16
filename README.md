@@ -1,1 +1,1 @@
-# CSOC-CTF-2
+# CSOC-CTF-2 challenges and writeups.
