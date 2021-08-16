@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whats's The time??</title>
+
+<style>
+ body {
+   background-color: lightblue;
+   /* justify-content: centre; */
+   /* text-align: centre; */
+}
+ p    {
+   color: red;
+   text-align: centre;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+ }
+</style>
+</head>
+<body>
+  <p>Make Sure You set right time!!</p>
+  
+<script type="text/javascript">
+    function set_correct_time(){
+      var time_extra_zeros = new Date(2021, 11, 15, 00, 00, 00, 00);
+      var cur_time = Math.floor( time_extra_zeros / 1000 );
+      document.cookie="time="+cur_time.toString();
+    }
+    
+</script>  
+</body>
+</html> 
